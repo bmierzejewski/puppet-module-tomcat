@@ -44,7 +44,7 @@ class tomcat::params {
           'user_homedir'    => '/usr/share/tomcat7',
         },
       }
-      $admin_package   = 'tomcat6-admin'
+      $admin_package   = 'tomcat7-admin'
       $autodeploy_dir  = '/var/lib/tomcat6/webapps'
       $docs_package    = 'tomcat6-docs'
       $group           = 'tomcat6'
